@@ -1,0 +1,5 @@
+vendor/
+data/
+composer.lock
+*.generated.php
+
