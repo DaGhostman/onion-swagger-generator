@@ -3,3 +3,4 @@ vendor/
 module/
 build/
 *.phar
+config/
