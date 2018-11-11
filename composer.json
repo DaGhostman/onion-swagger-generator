@@ -8,7 +8,7 @@
         "roave/security-advisories": "dev-master",
         "ddimitrov/openapi-generator": "dev-master",
         "onion/interfaces": "^2.0",
-        "onion/console": "dev-master",
+        "onion/console": "^1.0",
         "symfony/yaml": "^4.1"
     },
     "autoload": {
