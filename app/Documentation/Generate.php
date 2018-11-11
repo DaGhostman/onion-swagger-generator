@@ -304,7 +304,7 @@ class Generate implements CommandInterface
     {
         $object = new Schema($name);
         $object->setType('object');
-        foreach ($body as $property => $value) {
+        foreach ($body ?? [] as $property => $value) {
             if (is_int($property)) {
                 $object->setType('array');
                 $object->setFormat("#/components/schemas/{$name}Item");
