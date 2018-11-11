@@ -1,0 +1,19 @@
+{
+    "name": "ddimitrov/onion-swagger-generator",
+    "authors": [
+        {"name": "Dimitar Dimitrv", "email": "daghostman.dd@gmail.com", "role": "dev"}
+    ],
+    "license": "MIT",
+    "require": {
+        "roave/security-advisories": "dev-master",
+        "ddimitrov/openapi-generator": "dev-master",
+        "onion/interfaces": "^2.0",
+        "onion/console": "dev-master",
+        "symfony/yaml": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "OpenAPI\\Generator\\": "app/"
+        }
+    }
+}
