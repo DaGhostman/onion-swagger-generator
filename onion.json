@@ -3,6 +3,13 @@
     "version": "0.1.0",
     "links": [],
     "commands": [],
-    "repositories": [],
+    "repositories": [
+        {
+            "name": "gh",
+            "vendor": "DaGhostman",
+            "project": "onion-swagger-generator",
+            "branch": "master"
+        }
+    ],
     "dependencies": []
 }
